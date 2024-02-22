@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>HTML CSS Master class - Lecture 4</title>
+    </head>
+    <body>
+        <h1 style="color: aliceblue; background-color: rgba(2, 2, 117, 0.961);" > <center> Online Doctor Appointment Form </center> </h1>
+
+        <!-- HTML Forms -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" ><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+            <label for="number">Contact Number : </label>
+            <input type="text" id="number" name="number"><br><br>
+
+            <label for="address">Address : </label>
+            <textarea name="address" id="address" placeholder="Enter Your Full Address"></textarea><br><br>
+
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="Female" value="Female">
+            <label for="Female">Female</label><br><br>
+
+            <label for="age">Age : </label>
+            <input type="number" step="1" id="age" name="age"><br><br>
+
+            <label for="date">Preferred Appointment Date : </label>
+            <input type="date" id="date" name="date"><br><br>
+             
+            <!-- Drop down  -->
+            <label for="department">Which department would you like to get an appointment from? </label>
+            <select name="department" id="department">
+                <option>Please Select</option>
+                <option value="emergency">Emergency Department</option>
+                <option value="internal medi">Internal Madicine</option>
+                <option value="surgery">Surgery</option>
+                <option value="obstetrics">Obstetrics and Gynecology</option>
+                <option value="pediarics">Pediartics</option>
+            </select><br><br>
+
+            <label for="procedure">Which procedure do you want to make an appointment for? </label>
+            <select name="procedure" id="procedure">
+                <option>Please Select</option>
+                <option value="mediexam">Medical Examination</option>
+                <option value="checkup">Check-up</option>
+                <option value="doctorcheck">Doctor check</option>
+                <option value="result">Result Analysis</option>
+            </select><br><br>
+
+            <label for="medicine">Are you currently taking any medicine? </label><br>
+            <input type="radio" id="yes" name="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="no" value="no">
+            <label for="no">No</label><br>
+
+            <label for="list">Please list them : </label><br>
+            <textarea name="list" id="list"></textarea><br><br>
+             
+            <!-- check box -->
+            <label for="symptoms">Current symptoms that you have </label><br>
+            <input type="checkbox" id="fever" name="fever">
+            <label for="fever">Fever</label>
+            <input type="checkbox" id="cough" name="cough">
+            <label for="cough">Cough</label>
+            <input type="checkbox" id="breath" name="breath">
+            <label for="breath">Shortness of breath</label><br>
+            <input type="checkbox" id="fatigue" name="fatigue">
+            <label for="fatigue">Fatigue</label>
+            <input type="checkbox" id="aches" name="aches">
+            <label for="aches">Muscle or body aches</label>
+            <input type="checkbox" id="headache" name="headache">
+            <label for="headache">headache</label><br>
+            <input type="checkbox" id="sore" name="sore">
+            <label for="sore">Sore throat</label>
+            <input type="checkbox" id="taste" name="taste">
+            <label for="taste"> Loss of taste or smell</label>
+            <input type="checkbox" id="vomitting" name="vomitting">
+            <label for="vomitting">Vomitting</label><br><br>
+
+            <input type="submit" value="Submit" style="color: whitesmoke; background-color:darkblue;">
+            <button type="reset" value="reset" co>Reset</button>
+            
+
+        </form>
+    </body>
+</html>
