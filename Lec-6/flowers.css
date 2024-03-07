@@ -1,0 +1,41 @@
+/* element selector */
+h1{
+    color: rgb(172, 5, 169);
+    background-color: rgb(246, 206, 213);
+    border: 3px dashed rgb(185, 8, 168);
+    border-radius: 50px;
+    text-align: center;
+}
+
+/*  id selector */
+#flowers {
+    color: antiquewhite;
+    background-color: black;
+    text-align: justify;
+    border: 4px dotted rgb(206, 168, 121);
+    padding: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* class selector */
+.rose {
+    color: rgb(188, 75, 113);
+    background-color: black;
+    border: 2px solid whitesmoke;
+    padding: 8px;
+    background-image: url(./Rose.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+}
+
+#jasmine {
+    border-top: 4px solid darkgreen;
+    border-right: 4px dotted  rgb(101, 192, 68) ;
+    border-bottom: 4px dashed hsl(88, 62%, 56%) ;
+    border-left: 4px groove  rgba(56, 163, 138, 0.8) ;
+    padding: 8px;
+}
+
