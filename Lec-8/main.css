@@ -1,0 +1,88 @@
+/* List Style */
+ul.list1{
+    /* un-ordered List style types : circle, disc, square & none */
+    list-style-type: circle;
+}
+
+ol.list2{
+    /* Ordered list types : lower-alpha, upper-alpha, decimal, decimal-leading-zero, 
+    lower-roman & upper-roman*/
+    list-style-type: lower-alpha;
+}
+
+#ul {
+    background-color: aqua;
+    padding: 10px;
+}
+
+#ol {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+/* Table Style */
+.country {
+    background-color: aqua;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+    /* display: none; */
+    /* display: block; */
+}
+
+.country th, .country td {
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+.country th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(2, 2, 83);
+}
+
+.country tr:nth-child(even){
+    background-color: rgb(121, 252, 252);
+
+}
+
+.position {
+    display: block;
+    background-color: coral;
+    color: darkred;
+    border: 4px solid brown;
+    padding: 20px;
+    width: 100px;
+    position: absolute;
+    right: 0%;
+    opacity: 0.5;
+}
+
+.flex-box {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.flex-box .box1, .flex-box .box2, .flex-box .box3 {
+    background-color: rgb(4, 4, 94);
+    color: white;
+
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
