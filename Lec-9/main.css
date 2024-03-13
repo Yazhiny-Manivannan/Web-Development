@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 80px;
+}
+
+
+
+body{
+    /* background-image: url(../Exercise/galaxy/galaxy.jpg); */
+    background-color:rgb(255, 255, 255);
+}
+.overflow-div {
+    height: 200px;
+    width: 300px;
+    background-color:rgb(108, 57, 202);
+
+    padding: 15px 20px 15px 20px;
+    /* top:15px right:20px bottom:15px left:20px  */
+
+    /* padding: 15px 20px; 
+        X-axis : 20px , Y-axis : 15px */
+
+    text-align: justify;
+
+    /* overflow: hidden;
+        overflow: visible;
+        overflow: scroll;
+        overflow: auto; */
+
+    overflow-y: scroll;
+
+    float: right;
+    opacity: 0.5;
+}
+
+.overflow-div p {
+    font-size: 20px;
+}
+
+.overflow-div:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.vertical {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.vertical li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.vertica li a:hover {
+    background-color: dimgray;
+    color: white;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal li a:hover {
+    background-color: rgb(87, 5, 87);
+
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: aqua;
+    color: navy;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(227, 225, 225);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color:rgb(2, 2, 66) ;
+    color: aliceblue;
+    border: none;
+    border-radius: 50%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
